@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200&display=swap" rel="stylesheet">
+    <link pr-5 rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Wedding Invitation</title>
+</head>
+<body class="container">
+<!--header-->
+<header>
+
+<!--nav bar-->
+    <nav class="container mt-5 w-75">
+        <ul>
+            <li><a href="#" id="home">HOME</a> </li>
+            <li><a href="#" id="story">OUR STORY</a>  </li>
+            <li><a href="#" id="loc">EVENTS</a> </li>
+            <li><a href="#" id="men">MENU</a> </li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<audio autoplay id="v">
+    <source src="/Violin cover - Ahmed Mounib -  فيروز - كيفك انت.mp3"  type="audio/ogg">
+  </audio>
+ <!--husband and wife-->   
+    <div class="container text-left mt-5 husband">
+        <h2  data-aos="fade-left">Adam</h2>
+        <h2  data-aos="fade-right"><span>&</span> Emily</h2>
+    </div>   
+ 
+
+    <!--days-left-->
+    <div class="days text-center mt-5 container" >
+        <h3 data-aos="fade-up">days left until our day</h3>
+        <ul class="times mt-5" data-aos="fade-out">
+            <li id="days"></li>
+            <li id="hours"></li>
+            <li id="mins"></li>
+            <li id="secs"></li>
+        </ul>
+        <ul class="titles mb-5 mt-3" data-aos="fade-right">
+            <li>Days</li>
+            <li>Hours</li>
+            <li>Mins</li>
+            <li>Secs</li>
+        </ul>
+    </div>
+
+    <!--Our story-->
+    <div class="story text-center container" >
+        <h2>our story</h2>
+        <p data-aos="fade-out" id="elem" class="mt-1"></p>
+
+    </div>
+
+
+    <!--flowrs-->
+
+    <div class="flowers container w-75">
+        <div class="fl1">
+            <img src="./images/fl1.png" data-aos="fade-right" width="50%" height="50%%" alt="">
+            <h2  data-aos="fade-right">the flower</h2>
+        </div>
+
+        <div class="fl2">
+            <img src="./images/fl2.png" data-aos="fade-up" width="50%" height="50%%" alt="">
+            <h2  data-aos="fade-out">the meaning</h2>
+        </div>
+    </div>
+
+
+    <!--events-->
+    <div class="events container"  data-aos="fade-up">
+        <h2 class="chose" >wedding events</h2>
+        <div class="program">
+
+            <div class="pro1 pr-3"  data-aos="fade-right">
+                <h2 class="mb-4">Town Church</h2>
+                <div class="data">
+                    <h6>June 20th 2020</h6>
+                    <h6> 08:00 AM - 11:00 PM</h6>
+                </div>                
+                <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="pro2 pr-3"  data-aos="fade-out">
+                <h2 class="mb-4">Wedding Dinner</h2>
+                <div class="data">
+                    <h6>June 20th 2020</h6>
+                    <h6> 08:00 AM - 11:00 PM</h6>
+                </div>                
+                <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="pro2 pr-2"  data-aos="fade-right">
+                <h2 class="mb-4">After party</h2>
+                <div class="data">
+                    <h6>June 20th 2020</h6>
+                    <h6> 08:00 AM - 11:00 PM</h6>
+                </div>
+                <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--twos-->
+    <div class="twos container mt-5">
+        <img src="./images/t2.png"   data-aos="fade-left" width="20%" height="50%" alt="">
+        <img src="./images/t1.png"  data-aos="fade-right" width="20%" height="50%" alt="">
+
+    </div>
+
+
+    <!--menu-->
+    <div class="menu container mt-5"  data-aos="fade-up">
+        <h2>wedding menu</h2>
+
+
+        <div  data-aos="fade-down">
+            <h3>·Appetizer·</h3>
+            <div class="min-data">
+                <h6>Lorem ipsum dolor sit amet </h6>
+                <h6>Consectetur adipiscing elit</h6>
+                <h6 class="last">Sed do eiusmod tempor incididunt</h6>
+            </div>
+        </div>
+
+        
+        <div  data-aos="fade-down">
+            <h3>·Main Courses·</h3>
+            <div class="min-data">
+                <h6 class="w-50">Lorem ipsum dolor sit amet consectetur </h6>
+                <h6 class="w-50 last">Sed do eiusmod tempor incididunt</h6>
+                <h6 class="w-50">Enim ad minim veniam, quis nostrud exercitation</h6>
+                <h6 class="w-50 last">Ullamco laboris nisi ut aliquip ex ea commodo</h6>
+                <br>
+                <h6 class="w-50">Duis aute irure dolor in reprehenderits</h6>
+                <h6 class="w-50 last">In voluptate velit esse cillum dolore eu fugiat</h6>
+            </div>
+        </div>
+
+
+        <div  data-aos="fade-down">
+            <h3>·Desserts·</h3>
+            <div class="min-data">
+                <h6 class="lastt">Sed do eiusmod tempor incididunt</h6>
+                <h6 class="lastt last">Enim ad minim veniam, quis nostrud exercitation</h6>
+                <br>
+                <h6 class="last">Ullamco laboris nisi ut aliquip ex ea commodo</h6>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--Instgram-->
+    <div class="instgram container text-center">
+        <h2>our instagram</h2>
+        <div class="min-data">
+            <h6 class="one pr-3">Sed do eiusmod tempor incididunt  </h6>
+            <h6 class="three two pr-3">Enim ad minim veniam, quis nostrud exercitation</h6>
+            <h6 class="three pt-3">Ullamco laboris nisi ut aliquip ex ea commodo</h6>
+        </div>
+
+    </div>
+
+
+    <!--footer-->
+
+    <footer>
+        <div class="container" >
+         
+                <div class="link mb-5"><a href="#">www.ourwedding.com</a> </div>
+                <div class="icons mb-5">
+                    <i class="fab fa-2x fa-facebook"></i>
+                    <i class="fab fa-2x fa-instagram"></i>
+                    <i class="fab fa-2x fa-twitter-square"></i>
+        
+
+            </div>
+    
+
+        </div>
+
+
+
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
